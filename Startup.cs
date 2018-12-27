@@ -42,8 +42,8 @@ namespace MVCWeb
         {
             options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
             
-            options.ClientId = "718881823908-icgdba0lcfi7cmqbg9a9aj3fbm7ae6ng.apps.googleusercontent.com";
-            options.ClientSecret = "hcbr1AxUpTJXTy37m9AUPPiN";
+            options.ClientId = "";
+            options.ClientSecret = "";
         });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
