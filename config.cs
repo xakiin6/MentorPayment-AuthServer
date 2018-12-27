@@ -48,7 +48,7 @@ public static IEnumerable<Client> GetClients()
         //Development Test Client
 new Client
 {
-    ClientId = "jsDev",
+    ClientId = "js",
     ClientName = "JavaScript Client",
     AllowedGrantTypes = GrantTypes.Implicit,
     AllowAccessTokensViaBrowser = true,
