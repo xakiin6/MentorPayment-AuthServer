@@ -88,27 +88,27 @@ public static List<TestUser> GetUsers()
         new TestUser
         {
             SubjectId = "1",
-            Username = "admin",
-            Password = "abdihakin",
+            Username = "test",
+            Password = "tst",
 
             Claims = new []
             {
-                new Claim("username", "admin"),
-                new Claim("name", "Abdihakin Abdullahi"),
-                new Claim("website", "https://www.mayma.local")
+                new Claim("username", "test"),
+                new Claim("name", "test test"),
+                new Claim("website", "https://example.com")
             }
         },
         new TestUser
         {
             SubjectId = "2",
-            Username = "Ashley.Carter@ao.com",
-            Password = "Carter112018",
+            Username = "test2",
+            Password = "test2",
 
             Claims = new []
             {
-                new Claim("username", "Ashlay"),
-                new Claim("name", "Ashlay Carter"),
-                new Claim("website", "https://ao.com")
+                new Claim("username", "test2"),
+                new Claim("name", "test test2"),
+                new Claim("website", "https://example.com")
             }
         }
     };
